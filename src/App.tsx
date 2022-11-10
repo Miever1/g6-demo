@@ -23,6 +23,7 @@ function App() {
     fisheye: false,
     minimap: false
   })
+  
 
   useEffect(() => {
     const con: any = ReactDOM.findDOMNode(ref.current);
